@@ -1,0 +1,46 @@
+# OldKnockback Configuration
+# Restores classic pre-1.9 knockback mechanics
+# Reload with /oldkb reload
+
+knockback:
+  horizontal: 0.4
+  vertical: 0.4
+  sprint-bonus: 0.9
+  vertical-limit: 0.1
+  friction: 2.0
+
+projectile:
+  enabled: true
+  horizontal: 0.4
+  vertical: 0.4
+
+explosion:
+  # TNT and general entity explosions
+  enabled: true
+  max-horizontal: 1.2
+  vertical: 0.5
+
+# End Crystal knockback
+# Distance-scaled: closer to crystal = more KB
+crystal:
+  enabled: true
+  # Base horizontal force at point-blank
+  horizontal: 1.2
+  # Base vertical force
+  vertical: 0.5
+  # Max horizontal cap (prevents insane launches)
+  max-horizontal: 2.0
+  # Range in blocks the crystal affects KB calculation
+  range: 12.0
+
+# Respawn Anchor knockback
+anchor:
+  enabled: true
+  horizontal: 1.0
+  vertical: 0.45
+  max-horizontal: 1.8
+  range: 5.0
+
+fishing-rod:
+  enabled: true
+  pull: 0.4
