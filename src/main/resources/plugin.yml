@@ -3,7 +3,7 @@ version: 1.0.0
 main: dev.emerald.oldknockback.OldKnockback
 api-version: '1.21'
 description: Restores old/classic knockback mechanics for 1.21.11
-author: EmeraldSurvival
+author: Mctrrm
 
 commands:
   oldkb:
